@@ -1,0 +1,146 @@
+@media (max-width: 1200px) {
+  /* Navbar Section For Index Page */
+  .navbar .nav-item,
+  .navbar .nav-link.active {
+    text-decoration: none !important;
+  }
+}
+@media (max-width: 992px) {
+  /* Footer Section For Index Page */
+  footer .footer-download img,
+  footer .footer-download p {
+    margin: 0 !important;
+    text-align: right !important;
+  }
+  footer .copy-right p {
+    margin-left: 0px;
+  }
+
+  /* Sgin Form Section For Sgin Page */
+  .sgin-form form button {
+    padding: 10px 100px !important;
+  }
+  /* Sgin Form Section For Login Page */
+  .sgin-form form button:nth-child(2) {
+    padding: 10px 80px !important;
+  }
+}
+@media (max-width: 768px) {
+  /* About Us Section For Index Page */
+  .about-us {
+    padding: 100px;
+  }
+  .about-us p {
+    font-size: 20px;
+  }
+
+  /* Donation Request Section For Index Page */
+  .donation-request .div-donation-request .one-donation-request {
+    display: block !important;
+    border-radius: 0 !important;
+    text-align: center;
+  }
+  .donation-request
+    .div-donation-request
+    .one-donation-request
+    .div-donation-blood-type {
+    display: block !important;
+  }
+  .donation-request
+    .div-donation-request
+    .one-donation-request
+    .div-donation-blood-type
+    .donation-blood-type {
+    width: 150px;
+    padding: 40px !important;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Sgin Form Section For Log in Page */
+  .login-button{
+    display: block !important;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Header Section For Index Page */
+  .header {
+    padding-top: 100px;
+  }
+  .header .header-slider h1 {
+    font-size: 25px;
+  }
+  .header .header-slider p {
+    line-height: 2;
+    font-size: 20px;
+  }
+
+  /* About Us Section For Index Page */
+  .about-us {
+    padding: 70px 0;
+  }
+
+  /* Donation Request Section For Index Page */
+  .donation-request .div-form form select {
+    width: 100%;
+  }
+
+  /* Call Us Section For Index Page */
+  .call-us p {
+    font-size: 20px !important;
+  }
+  .call-us .whats-app {
+    width: 100% !important;
+    height: 80px;
+  }
+  .call-us .whats-app img {
+    width: 90px;
+  }
+
+  /* Our App Section For Index Page */
+  .our-app .our-app-download {
+    display: block;
+  }
+  .our-app .our-app-download img {
+    display: block;
+    margin: 0 auto !important;
+  }
+  .our-app .our-app-img img {
+    width: 100%;
+  }
+
+  /* Footer Section For Index Page */
+  footer .copy-right .container {
+    display: block !important;
+  }
+  footer p {
+    width: 100% !important;
+  }
+
+  /* Sgin Form Section For Sgin Page */
+  .sgin-form {
+    padding: 10px !important;
+  }
+  .sgin-form form button {
+    width: 100% !important;
+    padding: 10px 50px !important;
+  }
+
+  /* About Us Page Section For About Us Page */
+  .about-us-page{
+    text-align: center;
+  }
+  .about-us-page img{
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 257px) {
+  /* Footer Section For Index Page */
+  footer img {
+    width: 100%;
+  }
+}

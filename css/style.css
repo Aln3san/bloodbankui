@@ -78,7 +78,7 @@
   &:hover {
     text-decoration: underline;
     text-decoration-thickness: 4px;
-    text-underline-offset: 50px;
+    text-underline-offset: 63px;
     color: var(--third-font-color);
   }
 }
@@ -94,7 +94,7 @@
   color: var(--third-font-color);
   text-decoration: underline;
   text-decoration-thickness: 4px;
-  text-underline-offset: 50px;
+  text-underline-offset: 63px;
   color: var(--third-font-color);
 }
 
@@ -237,7 +237,7 @@
 .donation-request .div-title h2 {
   text-decoration: underline;
   text-decoration-thickness: 2px;
-  text-underline-offset: 17px;
+  text-underline-offset: 25px;
   color: var(--third-font-color);
 }
 
@@ -448,7 +448,7 @@ footer .copy-right .copy-right-social svg {
 
 .sgin-form form input,
 .sgin-form form select {
-  background: var(--second-background-color);
+  background: #f9f9f9;
   padding: 10px 20px;
   font-size: 20px;
   font-weight: 400;

@@ -80,7 +80,7 @@
   &:hover {
     text-decoration: underline;
     text-decoration-thickness: 4px;
-    text-underline-offset: 50px;
+    text-underline-offset: 63px;
     color: var(--third-font-color);
   }
 }
@@ -96,7 +96,7 @@
   color: var(--third-font-color);
   text-decoration: underline;
   text-decoration-thickness: 4px;
-  text-underline-offset: 50px;
+  text-underline-offset: 63px;
   color: var(--third-font-color);
 }
 
@@ -208,7 +208,7 @@
   position: relative;
 }
 
-.articles-love {
+.articles-love{
   color: #fff;
   background: var(--background-color);
   position: absolute;
@@ -218,11 +218,11 @@
   border-radius: 50%;
 }
 
-.articles .card .card-text {
+.articles .card .card-text{
   font-weight: 400;
 }
 
-.articles .card .articles-details {
+.articles .card .articles-details{
   color: var(--second-font-color);
   background: var(--background-color);
   padding: 10px;
@@ -239,7 +239,7 @@
 .donation-request .div-title h2 {
   text-decoration: underline;
   text-decoration-thickness: 2px;
-  text-underline-offset: 17px;
+  text-underline-offset: 25px;
   color: var(--third-font-color);
 }
 
@@ -284,8 +284,7 @@
 .donation-request .one-donation-request p {
   font-weight: 400;
 }
-
-.donation-request-details-btn {
+.donation-request .div-donation-request .donation-request-details {
   background: var(--second-background-color);
   color: var(--forth-font-color);
   font-size: 21px;
@@ -428,7 +427,7 @@ footer .copy-right .copy-right-social svg {
   font-weight: 400;
 }
 
-.header-page span {
+.header-page span{
   color: var(--main-font-color);
 }
 
@@ -436,6 +435,7 @@ footer .copy-right .copy-right-social svg {
   color: var(--forth-font-color);
 }
 /* Start Header Page Section */
+
 
 /* ========== Sgin in Page ========== */
 /* Start Sgin in Body */
@@ -452,7 +452,7 @@ footer .copy-right .copy-right-social svg {
 
 .sgin-form form input,
 .sgin-form form select {
-  background: var(--sixth-background-color);
+  background: #f9f9f9;
   padding: 10px 20px;
   font-size: 20px;
   font-weight: 400;
